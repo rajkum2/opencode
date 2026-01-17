@@ -9,9 +9,9 @@
   },
   "scripts": {
     "typecheck": "tsgo -b",
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
+    "start": "node init && vite",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "serve": "vite preview"
   },
   "license": "MIT",
